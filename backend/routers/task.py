@@ -1,6 +1,6 @@
 # backend/routers/task.py
 from fastapi import APIRouter
-from backend.models import TaskCreate
+from backend.models.models import TaskCreate
 import uuid
 import asyncio
 from backend.services.scheduler import simulate_accounts
